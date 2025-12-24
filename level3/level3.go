@@ -123,3 +123,8 @@ func getTopWords(wordMap map[string]int, n int) []string {
 	}
 	return answer
 }
+
+func main() {
+	text := "Your sample text here for testing"
+	AnalyzeText(text)
+}

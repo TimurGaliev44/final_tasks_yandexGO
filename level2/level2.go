@@ -7,6 +7,10 @@ import (
 	"unicode/utf8"
 )
 
+func TimeNow() time.Time {
+	return TimeNow()
+}
+
 func currentDayOfTheWeek() string {
 	switch time.Time.Weekday(TimeNow()) {
 	case time.Monday:
